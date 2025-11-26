@@ -1,0 +1,14 @@
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\bin\Debug\net8.0\ScreenSound04.exe
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\bin\Debug\net8.0\ScreenSound04.deps.json
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\bin\Debug\net8.0\ScreenSound04.runtimeconfig.json
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\bin\Debug\net8.0\ScreenSound04.dll
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\bin\Debug\net8.0\ScreenSound04.pdb
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\obj\Debug\net8.0\ScreenSound04.GeneratedMSBuildEditorConfig.editorconfig
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\obj\Debug\net8.0\ScreenSound04.AssemblyInfoInputs.cache
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\obj\Debug\net8.0\ScreenSound04.AssemblyInfo.cs
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\obj\Debug\net8.0\ScreenSound04.csproj.CoreCompileInputs.cache
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\obj\Debug\net8.0\ScreenSound04.dll
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\obj\Debug\net8.0\refint\ScreenSound04.dll
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\obj\Debug\net8.0\ScreenSound04.pdb
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\obj\Debug\net8.0\ScreenSound04.genruntimeconfig.cache
+C:\cursos\alura\consumindoAPIgravandoArquivosUtilizandoLINQ\ScreenSound04\ScreenSound04\obj\Debug\net8.0\ref\ScreenSound04.dll
