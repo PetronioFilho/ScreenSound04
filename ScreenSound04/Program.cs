@@ -13,6 +13,4 @@ using (HttpClient client = new HttpClient())
 		Console.WriteLine(ex.Message);
 	}
 }
-
-
 Console.ReadKey();
