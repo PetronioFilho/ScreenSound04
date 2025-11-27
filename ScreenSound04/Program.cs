@@ -51,6 +51,7 @@ internal class Program
             if (contador == 20)
             {
                 musicasPreferidasPetronio.ExibirMusicasFavoritas();
+                musicasPreferidasPetronio.GerarArquivoJson();
             }
         }
 
