@@ -13,5 +13,17 @@ namespace ScreenSound04.Filtros
                 Console.WriteLine($"- {genero}");
             }
         }
+
+        public static void FiltrarArtistasPorGeneroMusical(List<Musica> musicas, string generoMusical)
+        {
+            var artistasPorGeneroMusical = musicas.Where(musica => musica.Genero.Contains(generoMusical)).Select(musica => 
+            musica.Artista).Distinct().ToList();
+            
+            Console.WriteLine($"Músicas do gênero {generoMusical}:");
+            foreach (var artista in artistasPorGeneroMusical)
+            {
+                Console.WriteLine($"- {artista}");
+            }
+        }
     }
 }
