@@ -25,5 +25,15 @@ namespace ScreenSound04.Filtros
                 Console.WriteLine($"- {artista}");
             }
         }
+
+        public static void FiltrarMusicasDeUmArtista(List<Musica> musicas, string artista)
+        {
+            var musicasPorArtista = musicas.Where(musica => musica.Artista.Contains(artista)).ToList();
+            
+            foreach (var musica in musicasPorArtista)
+            {
+                Console.WriteLine($" Artista - {musica.Artista} - Música - {musica.Nome}");
+            }
+        }
     }
 }

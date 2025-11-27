@@ -39,7 +39,8 @@ internal class Program
             //musica.ExibirDetalhesDaMusica();
             //LinqFilter.FiltrarTodosOsGenerosMusicais(new List<Musica>(await musicas));
            // LinqOrder.ExibirListaDeArtistasOrdenados(new List<Musica>(await musicas));
-            LinqFilter.FiltrarArtistasPorGeneroMusical(new List<Musica>(await musicas), "pop");
+            //LinqFilter.FiltrarArtistasPorGeneroMusical(new List<Musica>(await musicas), "pop");
+            LinqFilter.FiltrarMusicasDeUmArtista(new List<Musica>(await musicas), "michel");
         }
 
         var filmes = ClientApi<Filme>.Listar(new Filme(), "https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/TopMovies.json");
