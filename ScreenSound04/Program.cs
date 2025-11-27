@@ -33,15 +33,27 @@ internal class Program
 {
     private static async Task Main(string[] args)
     {
+        var musicasPreferidasPetronio = new MusicasPreferidas("Petronio");
+        int contador = 1;
+
         var musicas = ClientApi<Musica>.Listar(new Musica(), "https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
         foreach (var musica in await musicas)
-        {
+        {           
             //musica.ExibirDetalhesDaMusica();
             //LinqFilter.FiltrarTodosOsGenerosMusicais(new List<Musica>(await musicas));
-           // LinqOrder.ExibirListaDeArtistasOrdenados(new List<Musica>(await musicas));
+            //LinqOrder.ExibirListaDeArtistasOrdenados(new List<Musica>(await musicas));
             //LinqFilter.FiltrarArtistasPorGeneroMusical(new List<Musica>(await musicas), "pop");
-            LinqFilter.FiltrarMusicasDeUmArtista(new List<Musica>(await musicas), "michel");
+            //LinqFilter.FiltrarMusicasDeUmArtista(new List<Musica>(await musicas), "michel");                        
+
+            if (contador <= 20)
+                musicasPreferidasPetronio.AdicionarMusica(musica);
+            contador++;
+            if (contador == 20)
+            {
+                musicasPreferidasPetronio.ExibirMusicasFavoritas();
+            }
         }
+
 
         var filmes = ClientApi<Filme>.Listar(new Filme(), "https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/TopMovies.json");
         foreach (var filme in await filmes)
