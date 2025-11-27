@@ -2,6 +2,7 @@
 
 
 using ScreenSound04;
+using ScreenSound04.Filtros;
 using ScreenSound04.Modelos;
 using System.Text.Json;
 
@@ -36,6 +37,7 @@ internal class Program
         foreach (var musica in await musicas)
         {
             musica.ExibirDetalhesDaMusica();
+            LinqFilter.FiltrarTodosOsGenerosMusicais(new List<Musica>(await musicas));
         }
 
         var filmes = ClientApi<Filme>.Listar(new Filme(), "https://raw.githubusercontent.com/ArthurOcFernandes/Exerc-cios-C-/curso-4-aula-2/Jsons/TopMovies.json");
